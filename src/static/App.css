@@ -220,7 +220,7 @@ color:#01d4aa;
   margin: 0 0 83px 0;
 }
 .margin-t{
-  margin: 83px 0 !important;
+  margin: 83px 0  0 83px!important;
 }
 .custome-box{
   border-radius: 12px;
@@ -322,6 +322,7 @@ input[type="file"] {
     padding: 6px 12px;
     cursor: pointer;
 }
+/*------------------------------------------------ */
 /* PROFILE */
 .update-button{
   width: 100%;
@@ -385,6 +386,38 @@ border-color: transparent;
 .file-box:hover{
   background-color: #FF967178;
   color: #fff;
+}
+/*------------------------------------------------*/
+/* Panal  */
+.panal{
+  top:73px;
+  z-index: -1;
+  height: 100%;
+  position: fixed;
+  background: #222a42;
+  width: 73px;
+  display: flex;
+  justify-content: center;
+}
+.panal > div{
+  align-self: center;
+   width: 73px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.panal > div ul{
+  padding: 0;
+  flex-direction: column;
+  justify-content: space-evenly;
+  display: inherit;
+  height: inherit;
+}
+.icone-panal{
+  color: #05ffd5;
+  height: 40px !important;
+  width: 40px !important;
 }
 @keyframes role{
   from{
