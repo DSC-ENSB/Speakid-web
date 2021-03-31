@@ -6,6 +6,9 @@ SpeaKid is a cross platform developed for kids aged between 3 and 17 years old s
 - Improve children’s capacity of assimilation.
 - Improve reading and communication skills.  
 
+# What is the problem ?
+=======
+
 What is the problem ?
 ---------------------
 This disorder is more common for children aged between 3 and 10 years old and 1 of 12 children are facing it. Its impact does not disappear after their childhood, it actually follows them for the rest of their lives.   
@@ -19,6 +22,20 @@ This application also connects doctors with their patients through the SpeaKid w
 Technologies used
 ------------------
 SpeaKid is a cross platform and it required the following technologies :  
+
+- **React Native** for the mobile application side of the solution.  
+- **Firebase**. Firebase is a platform developed by Google for creating mobile and web applications.
+- **Machine Learning** for the classification of algorithms to predict and to classify the child’s disorder based on the mom’s answers.
+- **React** to build a client side web application linked with Firebase.  
+
+Possible next features
+----------------------
+The features we can add to this application could be :  
+- Different languages so it could become more universal.
+// physical trainning   
+- Add facial detection.  
+- The ability to add familiar voices.
+=======
 - **React Native** for the [mobile application](https://github.com/DSC-ENSB/Speakid) side of the solution.  
 - **Firebase**.  
 - **Machine Learning** for the classification of algorithms to product and to classify the child’s disorder based on the mom’s answers.
