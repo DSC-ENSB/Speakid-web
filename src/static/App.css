@@ -20,6 +20,11 @@ a{
   border-bottom: 1px solid #f5ecff;
   background-color: #fff;
 }
+.nav-icone{
+  height: 30px !important;
+  width: 30px !important;
+  color: #1c1a27;
+}
 #main{
   height: calc(100vh - 73px);
   position: relative;
@@ -232,8 +237,12 @@ box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 
   margin-right: 0;
 }
 .information-box{
+  padding-top: 10px;
+  overflow:auto ;
   border-radius: 12px;
   background: #1c1a27;
+  
+  text-align: right;
   min-height: 320px;
 box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
   margin-left: 0;
@@ -391,10 +400,10 @@ border-color: transparent;
 /* Panal  */
 .panal{
   top:73px;
-  z-index: -1;
+  z-index: 1;
   height: 100%;
   position: fixed;
-  background: #222a42;
+  background: #1c1a27;
   width: 73px;
   display: flex;
   justify-content: center;
@@ -409,15 +418,71 @@ border-color: transparent;
 }
 .panal > div ul{
   padding: 0;
+  list-style: none;
   flex-direction: column;
   justify-content: space-evenly;
   display: inherit;
   height: inherit;
 }
+.panal > div ul li a{
+  cursor: pointer;
+}
+.panal > div ul li{
+  width: 73px;
+  text-align: center;
+  cursor: pointer;
+  height:70px;
+  transition: background-color .3s linear;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.panal > div ul li:hover{
+  background-color: #33313c;
+}
 .icone-panal{
   color: #05ffd5;
-  height: 40px !important;
-  width: 40px !important;
+  height: 30px !important;
+  width: 30px !important;
+}
+/*--------------------------------------------------------**/
+.togglerSide{
+  position: fixed;
+  top: 73px;
+  opacity:.9;
+  left: 73px;
+  transition: width .5s linear;
+  background-color: #1c1a27;
+  height: 100%;
+  width: 300px;
+  z-index: 99999;
+  overflow-y: auto;
+  scroll-behavior: smooth;
+  padding-bottom:80px ;
+}
+.users-list{
+  border: none;
+  background-color: transparent;
+   transition: color .2s linear;
+  border-radius: 0;
+  font-family:Gotham Pro;
+  color: white;
+  text-align: left;
+}
+.users-list:hover{
+  color: #05ffd5;
+}
+.li-heading{
+  color: grey;
+  text-align: center;
+  background-color: transparent;
+  padding: 15px;
+  font-family:Gotham Pro;
+}
+.v-center{
+  position: relative;
+  top:40%;
+  transform: translateY(-50%);
 }
 @keyframes role{
   from{
