@@ -1,70 +1,42 @@
-# Getting Started with Create React App
+Main objectives
+---------------
+SpeaKid is a cross platform developed for kids aged between 3 and 17 years old suffering from speaking disorder and articulation troubles. It aims to :  
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+- Acquire better pronunciation of words.
+- Improve children’s capacity of assimilation.
+- Improve reading and communication skills.  
 
-## Available Scripts
+What is the problem ?
+---------------------
+This disorder is more common for children aged between 3 and 10 years old and 1 of 12 children are facing it. Its impact does not disappear after their childhood, it actually follows them for the rest of their lives.   
 
-In the project directory, you can run:
+Our solution : SpeaKid
+-----------------------
+In the face of the lack of attention of the parents towards this kind of phenomena and the expensiveness of a visit to a speech therapist, SpeaKid comes to the rescue by helping to solve these problems through increasing parents’ awareness, helping kids practicing speaking and pronouncing, repeating letters, words, sentences and sounds, and by improving their communication skills and consequently getting them to build their self-esteem and confidence without spending a cent.  
 
-### `yarn start`
+This application also connects doctors with their patients through the SpeaKid website.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Technologies used
+------------------
+SpeaKid is a cross platform and it required the following technologies :  
+- **React Native** for the [mobile application](https://github.com/DSC-ENSB/Speakid) side of the solution.  
+- **Firebase**.  
+- **Machine Learning** for the classification of algorithms to product and to classify the child’s disorder based on the mom’s answers.
+- **React** to build a client side web application linked with Firebase.  
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+Code instructions
+------------------
+To run the code, click [here](https://github.com/DSC-ENSB/Speakid-web/blob/main/install.md).
 
-### `yarn test`
+Possible next features
+----------------------
+The features we can add to this application could be :  
+- Different languages so it could become more universal.  
+- Add facial detection.  
+- The ability to add familiar voices.  
+- VR/AR games.
+- The availability for teenagers and young people.  
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `yarn build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+License
+--------
+[GNU General Public License v3.0](https://choosealicense.com/licenses/gpl-3.0/#)
