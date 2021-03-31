@@ -1,5 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import { Link } from 'react-router-dom'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faHome } from '@fortawesome/free-solid-svg-icons'
 
 import db from '../config/db'
 import avatar from '../static/user.png'
@@ -45,7 +47,7 @@ const Navbar = () => {
       <div>
         <ul>
           <Link to="/user">
-            <li>Home</li>
+            <li><FontAwesomeIcon icon={faHome} className="nav-icone" /></li>
           </Link>
         </ul>
       </div>
